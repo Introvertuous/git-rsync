@@ -31,12 +31,13 @@ export default class Client {
     if (type === 'ACCEPTED') {
       this.send('REQUEST_PATCH');
     } else if (type === 'PATCH') {
+      await git.stash();
+
       if (!payload) {
-        git.stash();
         return;
       }
 
-      git.apply(payload);
+      await git.apply(payload);
     } else if (type === 'COMPARE') {
       const diff = await git.getUntrackedDiff();
 
