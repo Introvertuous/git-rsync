@@ -1,0 +1,8 @@
+*
+!dist/
+!dist/*
+!dist/**/*
+!package.json
+!package-lock.json
+!*.md
+!LISCENSE
