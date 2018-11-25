@@ -1,6 +1,6 @@
 {
   "name": "git-rsync",
-  "version": "0.0.0-development",
+  "version": "1.0.0-development",
   "description": "Command line utility for syncing uncommited changes between several machines.",
   "bin": "./dist/src/main.js",
   "preferGlobal": true,
