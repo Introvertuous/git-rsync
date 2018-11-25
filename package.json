@@ -5,6 +5,7 @@
   "bin": "./dist/src/main.js",
   "preferGlobal": true,
   "scripts": {
+    "test": "echo 'hello world'",
     "build": "rimraf dist && tsc",
     "dev": "yarn link && tsc -w",
     "once": "ts-node src/main.ts",
