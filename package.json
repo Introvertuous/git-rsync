@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo 'hello world'",
     "build": "rimraf dist && tsc",
-    "dev": "yarn link && tsc -w",
+    "bundle": "npm pack",
     "once": "ts-node src/main.ts",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
