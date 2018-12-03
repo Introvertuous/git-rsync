@@ -1,10 +1,10 @@
 import * as findUp from 'find-up';
-import { exec } from 'lib/child_promise';
-import { readFile, writeFile } from 'lib/fs';
-import logger from 'lib/logger';
 import * as Git from 'nodegit';
 import * as path from 'path';
 import * as tmp from 'tmp';
+import { exec } from './child_promise';
+import { readFile, writeFile } from './fs';
+import logger from './logger';
 
 let repository: Git.Repository | null = null;
 

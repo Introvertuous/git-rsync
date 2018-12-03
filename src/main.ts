@@ -1,12 +1,8 @@
 #!/usr/bin/env node
 
-/* tslint:disable:no-var-requires */
-require('app-module-path').addPath(__dirname);
-/* tslint:enable:no-var-requires */
-
 import * as rsync from 'commander';
-import master from 'commands/master';
-import slave from 'commands/slave';
+import master from './commands/master';
+import slave from './commands/slave';
 
 rsync
   .version('0.0.1')

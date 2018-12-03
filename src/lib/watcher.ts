@@ -1,6 +1,6 @@
 import * as chokidar from 'chokidar';
-import git from 'lib/git';
 import * as path from 'path';
+import git from './git';
 
 async function onAnyChange(handler: (...args: any[]) => void) {
   const gitPath = await git.getPath();
