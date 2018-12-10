@@ -1,5 +1,5 @@
-import * as chokidar from 'chokidar';
-import * as path from 'path';
+import chokidar from 'chokidar';
+import path from 'path';
 import git from './git';
 
 async function onAnyChange(handler: (...args: any[]) => void) {

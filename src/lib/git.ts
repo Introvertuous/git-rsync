@@ -1,7 +1,7 @@
-import * as findUp from 'find-up';
-import * as Git from 'nodegit';
-import * as path from 'path';
-import * as tmp from 'tmp';
+import findUp from 'find-up';
+import Git from 'nodegit';
+import path from 'path';
+import tmp from 'tmp';
 import { exec } from './child_promise';
 import { readFile, writeFile } from './fs';
 import logger from './logger';

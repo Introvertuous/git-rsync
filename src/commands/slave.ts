@@ -1,5 +1,5 @@
-import * as ip from 'ip';
-import * as WebSocket from 'ws';
+import ip from 'ip';
+import WebSocket from 'ws';
 import { findService } from '../lib/bonjour';
 import { PORT } from '../lib/config';
 import git from '../lib/git';

@@ -1,5 +1,5 @@
-import * as bonjour from 'bonjour';
-import * as pkg from '../../package.json';
+import bonjour from 'bonjour';
+import pkg from '../../package.json';
 
 const bonjourInstance = bonjour();
 const id = pkg.name;

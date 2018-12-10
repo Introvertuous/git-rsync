@@ -34,7 +34,7 @@
     "@types/shortid": "0.0.29",
     "@types/tmp": "^0.0.33",
     "@types/ws": "^6.0.1",
-    "introvertuous-configurations": "^1.4.2",
+    "introvertuous-configurations": "^1.6.0",
     "prettier": "^1.15.2",
     "rimraf": "^2.6.2",
     "semantic-release": "^15.12.1",

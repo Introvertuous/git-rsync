@@ -1,5 +1,5 @@
-import * as shortid from 'shortid';
-import * as WebSocket from 'ws';
+import shortid from 'shortid';
+import WebSocket from 'ws';
 import { publishService } from '../lib/bonjour';
 import { PORT } from '../lib/config';
 import git from '../lib/git';

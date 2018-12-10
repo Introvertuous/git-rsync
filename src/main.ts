@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import * as rsync from 'commander';
+import rsync from 'commander';
 import master from './commands/master';
 import slave from './commands/slave';
 
